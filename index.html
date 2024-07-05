@@ -11,6 +11,20 @@
       />
       <title>Vite App</title>
    </head>
+   <!-- Google tag (gtag.js) -->
+   <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YDF5ZWRQYJ"
+   ></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+         dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-YDF5ZWRQYJ");
+   </script>
    <body class="font-Poppins w-full">
       <header
          class="w-full relative flex flex-col justify-between bg-header bg-no-repeat bg-cover h-[760px]"
@@ -233,20 +247,6 @@
       </main>
       <footer></footer>
 
-      <!-- Google tag (gtag.js) -->
-      <script
-         async
-         src="https://www.googletagmanager.com/gtag/js?id=G-YDF5ZWRQYJ"
-      ></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag() {
-            dataLayer.push(arguments);
-         }
-         gtag("js", new Date());
-
-         gtag("config", "G-YDF5ZWRQYJ");
-      </script>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script type="module" src="/main.js"></script>
    </body>

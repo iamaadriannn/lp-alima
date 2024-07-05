@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 /* root */
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
 a {
    text-decoration: none;
    color: inherit;
@@ -36,6 +41,12 @@ a:hover {
 /* header */
 .bg-header {
    background-image: url("/bg-header.png");
+}
+
+/* nav */
+nav {
+   position: fixed;
+   z-index: 10;
 }
 
 /* swiper */
